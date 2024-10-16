@@ -1,0 +1,33 @@
+---
+import { Linkedin, Github, Instagram, Mail } from "lucide-astro";
+---
+
+<section id="contact">
+    <h2 class="text-xl sm:text-2xl text-center">Contáctame</h2>
+    <p class="text-center text-pretty text-sm text-gray-300">
+        ¿Interesado en colaborar o tienes alguna pregunta? No dudes en
+        contactarme a través de cualquiera de mis redes sociales o envíame un
+        correo electrónico. ¡Estaré encantado de conectar contigo!
+    </p>
+    <div class="flex justify-center space-x-8 mt-4">
+        <a href="https://www.linkedin.com/in/santiago-zaidan-b68841229" class="hover:text-sky-600 transition">
+            <Linkedin size={40} />
+        </a>
+        <a href="https://github.com/SantiZai" class="hover:text-purple-900 transition">
+            <Github size={40} />
+        </a>
+        <a href="https://www.instagram.com/santizaidan_" class="hover:text-pink-600 transition">
+            <Instagram size={40} />
+        </a>
+        <a href="mailto:santiagozaidandev@gmail.com" class="hover:text-red-500 transition">
+            <Mail size={40} />
+        </a>
+    </div>
+</section>
+
+<style>
+    svg {
+        height: 25px;
+        width: 25px;
+    }
+</style>

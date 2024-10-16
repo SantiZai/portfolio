@@ -1,0 +1,31 @@
+---
+import EducationPeriod from "./EducationPeriod.astro";
+import education from "../education.json";
+
+interface Education {
+    period: string;
+    title: string
+    description: string;
+}
+---
+
+<section id="education">
+    <h2 class="text-xl sm:text-2xl -mb-8 mt-8">Mi educación</h2>
+    <ol class="relative border-s border-gray-200 dark:border-gray-700">
+      <EducationPeriod
+        period=""
+        title=""
+        description=""
+      />
+      {
+        education.map((each) => (
+          <EducationPeriod
+            period={each.period}
+            title={each.title}
+            description={each.description}
+          />
+        ))
+      }
+    </ol>
+  </section>
+  

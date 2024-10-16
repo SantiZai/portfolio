@@ -1,0 +1,41 @@
+---
+import "@fontsource-variable/onest";
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+
+const bgColor = "#222831";
+const textColor = "#EEEEEE";
+const primaryColor = "#00ADB5";
+const secondaryColor = "#393E46";
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+	</head>
+	<body
+		class="pt-2 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] cursor-default"
+	>
+		<slot />
+	</body>
+</html>
+
+<style define:vars={{ bgColor, textColor, primaryColor, secondaryColor }}>
+	* {
+		scroll-behavior: smooth;
+		color: var(--textColor);
+		background-color: var(--bgColor);
+		font-size: 18px;
+		text-wrap: balance;
+		font-family: "Onest variable", system-ui, sans-serif;
+	}
+</style>

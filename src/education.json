@@ -1,0 +1,22 @@
+[
+    {
+        "period": "Enero 2019 - Actualidad ...",
+        "title": "Autodidacta",
+        "description": "Continuamente busco mejorar mis habilidades, desarrollando tanto proyectos personales como servicios que puedan ser de utilidad para las personas. Aporto lo mejor de mis habilidades para lograr la mejor solución al problema que se me presente."
+    },
+    {
+        "period": "Mayo 2024 - Octubre 2024",
+        "title": "Codo a Codo - Full-Stack Java",
+        "description": "En este bootcamp brindado por la Agencia de Apendizaje a lo Largo de la Vida se me brindaron ámplios conocimientos de JavaScript y Java para poder crear aplicaciones full-stack desde cero a producción, utilizando VueJS y SpringBoot."
+    },
+    {
+        "period": "Abril 2022 - Abril 2023",
+        "title": "Argentina Programa",
+        "description": "Participé de esta formación en desarrollo full-stack brindado por el INTI donde en el transcurso del mismo se me exigió utilizar Angular y Java mientras me enfrentaba a distintos retos, para finalmente como proyecto final integrador crear el cliente, el servidor y la base de datos demostrando todos los conocimientos obtenidos."
+    },
+    {
+        "period": "Agosto 2022 - Diciembre 2022",
+        "title": "Codo a Codo - Full-Stack NodeJS",
+        "description": "En este bootcamp brindado por la Agencia de Apendizaje a lo Largo de la Vida se me brindaron ámplios conocimientos de JavaScript y NodeJS para poder crear aplicaciones full-stack desde cero a producción."
+    }
+]

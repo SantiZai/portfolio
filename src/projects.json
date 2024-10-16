@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Sale Partidito",
+        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
+        "repo": "",
+        "image": "",
+        "characteristics": [
+            "Gestión de reservas para administradores",
+            "Creación de turnos para usuarios",
+            "Autenticación"
+        ],
+        "technologies": [
+            "NextJS",
+            "NestJS",
+            "TypeScript",
+            "PostgreSQL",
+            "Prisma"
+        ]
+    },
+    {
+        "title": "Sale Partidito",
+        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
+        "repo": "",
+        "image": "",
+        "characteristics": [
+            "Gestión de reservas para administradores",
+            "Creación de turnos para usuarios",
+            "Autenticación"
+        ],
+        "technologies": [
+            "NextJS",
+            "NestJS",
+            "TypeScript",
+            "PostgreSQL",
+            "Prisma"
+        ]
+    },
+    {
+        "title": "Sale Partidito",
+        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
+        "repo": "",
+        "image": "",
+        "characteristics": [
+            "Gestión de reservas para administradores",
+            "Creación de turnos para usuarios",
+            "Autenticación"
+        ],
+        "technologies": [
+            "NextJS",
+            "NestJS",
+            "TypeScript",
+            "PostgreSQL",
+            "Prisma"
+        ]
+    },
+    {
+        "title": "Sale Partidito",
+        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
+        "repo": "",
+        "image": "",
+        "characteristics": [
+            "Gestión de reservas para administradores",
+            "Creación de turnos para usuarios",
+            "Autenticación"
+        ],
+        "technologies": [
+            "NextJS",
+            "NestJS",
+            "TypeScript",
+            "PostgreSQL",
+            "Prisma"
+        ]
+    }
+]

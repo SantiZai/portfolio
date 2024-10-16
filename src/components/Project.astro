@@ -1,0 +1,36 @@
+---
+const { title, description, repo, image, characteristics, technologies } = Astro.props;
+---
+
+<article
+    class="w-full my-4 hover:shadow-lg transition rounded-md p-2 relative group overflow-hidden"
+>
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="w-1/2 h-1/2 border-t-2 border-l-2 border-gray-500 absolute top-0 left-0 transition-all duration-300 group-hover:w-0 group-hover:h-0"></div>
+        <div class="w-0 h-0 border-b-2 border-r-2 border-gray-500 absolute bottom-0 right-0 transition-all duration-300 group-hover:w-1/2 group-hover:h-1/2"></div>
+    </div>
+    <div class="relative z-10">
+        <h3
+            class="w-max sm:text-lg font-semibold border-b border-transparent hover:border-b hover:border-gray-500 transition cursor-pointer mb-2"
+        >
+            <a href={repo}>{title}</a>
+        </h3>
+        <p class="leading-4 mb-2">{description}</p>
+        <div class="flex gap-x-2 flex-wrap text-xs">
+            {
+                characteristics.map((characteristic: string) => (
+                    <span class="text-gray-500">{characteristic}</span>
+                ))
+            }
+        </div>
+        <div class="flex gap-2 flex-wrap text-xs mt-1">
+            {
+                technologies.map((tech: string) => (
+                    <span class="rounded-md py-1 px-2 bg-gray-500 border border-gray-500 hover:bg-transparent hover:border hover:border-gray-700">
+                        {tech}
+                    </span>
+                ))
+            }
+        </div>
+    </div>
+</article>

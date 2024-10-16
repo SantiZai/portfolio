@@ -1,0 +1,33 @@
+---
+import Project from "../components/Project.astro";
+import projects from "../projects.json";
+
+interface Project {
+    title: string;
+    description: string;
+    repo: string;
+    image: string;
+    characteristics: string[];
+    technologies: string[];
+}
+
+console.log;
+---
+
+<section id="projects">
+    <h2 class="text-xl sm:text-2xl">Proyectos personales</h2>
+    <div class="w-full">
+        {
+            projects.map((project: Project) => (
+                <Project
+                    title={project.title}
+                    description={project.description}
+                    repo={project.repo}
+                    image={project.image}
+                    characteristics={project.characteristics}
+                    technologies={project.technologies}
+                />
+            ))
+        }
+    </div>
+</section>
