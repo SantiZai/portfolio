@@ -3,7 +3,7 @@
         "title": "Sale Partidito",
         "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
         "repo": "",
-        "image": "",
+        "link": "",
         "characteristics": [
             "Gestión de reservas para administradores",
             "Creación de turnos para usuarios",
@@ -11,53 +11,50 @@
         ],
         "technologies": [
             "NextJS",
-            "NestJS",
             "TypeScript",
-            "PostgreSQL",
-            "Prisma"
+            "TailwindCSS",
+            "NestJS",
+            "Prisma",
+            "PostgreSQL"
         ]
     },
     {
-        "title": "Sale Partidito",
-        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
+        "title": "Truco Argentino",
+        "description": "Juego del Truco Argentino hecho exclusivamente con vanilla JavaScript.",
         "repo": "",
-        "image": "",
+        "link": "",
+        "characteristics": [
+            "Jugabilidad completa",
+            "Gestión de turnos",
+            "Jugador vs Bot"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Del Potro Tennis Academy",
+        "description": "Sitio web NO OFICIAL de la academia de tenis del ídolo argentino Juan Martín Del Potro.",
+        "repo": "",
+        "link": "",
         "characteristics": [
             "Gestión de reservas para administradores",
             "Creación de turnos para usuarios",
             "Autenticación"
         ],
         "technologies": [
-            "NextJS",
-            "NestJS",
+            "Astro",
             "TypeScript",
-            "PostgreSQL",
-            "Prisma"
+            "TailwindCSS"
         ]
     },
     {
         "title": "Sale Partidito",
         "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
         "repo": "",
-        "image": "",
-        "characteristics": [
-            "Gestión de reservas para administradores",
-            "Creación de turnos para usuarios",
-            "Autenticación"
-        ],
-        "technologies": [
-            "NextJS",
-            "NestJS",
-            "TypeScript",
-            "PostgreSQL",
-            "Prisma"
-        ]
-    },
-    {
-        "title": "Sale Partidito",
-        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
-        "repo": "",
-        "image": "",
+        "link": "",
         "characteristics": [
             "Gestión de reservas para administradores",
             "Creación de turnos para usuarios",
