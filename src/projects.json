@@ -40,9 +40,8 @@
         "repo": "",
         "link": "",
         "characteristics": [
-            "Gestión de reservas para administradores",
-            "Creación de turnos para usuarios",
-            "Autenticación"
+            "Landing page completa",
+            "Formulario de contacto"
         ],
         "technologies": [
             "Astro",
@@ -51,14 +50,13 @@
         ]
     },
     {
-        "title": "Sale Partidito",
-        "description": "Servicio para la gestión de reservas para canchas de todo tipo de deportes.",
-        "repo": "",
+        "title": "Web scraper",
+        "description": "Funcionalidad diseñada para obtener el nombre y precio de productos elegidos dentro de páginas web.",
+        "repo": "https://github.com/SantiZai/python-web-scraper",
         "link": "",
         "characteristics": [
-            "Gestión de reservas para administradores",
-            "Creación de turnos para usuarios",
-            "Autenticación"
+            "Búsqueda de productos",
+            "Recopilación de datos de interés"
         ],
         "technologies": [
             "NextJS",
