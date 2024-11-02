@@ -56,7 +56,8 @@
         "link": "",
         "characteristics": [
             "Búsqueda de productos",
-            "Recopilación de datos de interés"
+            "Recopilación de datos de interés",
+            "Creación de un archivo de Excel"
         ],
         "technologies": [
             "NextJS",
